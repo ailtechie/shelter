@@ -305,8 +305,8 @@ a.arial_cdcdcd {
     grid-template-columns: repeat(4, 270px);
     grid-template-rows: repeat(2, 435px);
     column-gap: 40px;
-    row-gap: 35px;
-    margin-top: 10px;
+    row-gap: 30px;
+    margin-top: 15px;
     /* background: lightcoral; */
 
     /* display: flex;
@@ -348,9 +348,10 @@ a.arial_cdcdcd {
     background: #F1CDB3;
 }
 
-.slider-item .georgia_292929 {
+.slider-item > p {
     font-size: 20px;
     line-height: 23px;
+    margin-top: 28px;
 }
 
 .georgia_292929 {
@@ -358,6 +359,7 @@ a.arial_cdcdcd {
 }
 
 .slider-item button {
+    height: 52px;
     margin-top: 30px;
     background: none;
     border: 2px solid #F1CDB3;

@@ -699,11 +699,11 @@ button.rightarrow {
     /* margin: 0 60px 60px; */
 }
 
-.help-pictures .item p {
+.help-pictures .item > p {
     font-size: 20px;
     line-height: 115%;
     color: #545454;
-    margin-top: 30px;
+    margin-top: -60px;
     /* text-align: center; */
 }
 
@@ -713,7 +713,7 @@ button.rightarrow {
     display: flex;
     justify-content: center;
     width: 1280px;
-    height: 462px;
+    height: 465px;
     background: #f6f6f6;
     /* background: blue; */
 }
@@ -1426,10 +1426,10 @@ address {
         width: 50px;
     }
 
-    .help-pictures .item p {
+    .help-pictures .item > p {
         font-size: 15px;
         line-height: 110%;
-        margin-top: 20px;
+        margin-top: -70px;
     }
 
 /* in addition */

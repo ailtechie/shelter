@@ -1017,7 +1017,24 @@ address {
     button.rightarrow {
         margin-left: 14px;
     }
-    
+
+    .wrapper {
+        width: 708px;
+    }
+    .carousel-wrapper {
+        width: 580px;
+    }
+
+    .item {
+        max-width: 708px;
+        gap: 40px;
+        overflow: hidden;
+    }
+
+    .carousel {
+        left: -768px;
+        gap: 40px;
+    }
 
 /* help */
 
@@ -1043,6 +1060,10 @@ address {
 
     .help-pictures .item {
         width: 170px;
+    }
+
+    .help-pictures .item > p {
+        margin-top: -10px;
     }
 
 /* in addition */
@@ -1376,17 +1397,48 @@ address {
     }
 
     button.leftarrow {
-        margin-left: 60px;
+        /* margin-left: 60px; */
     }
 
     button.rightarrow {
-        margin-right: 60px;
+        /* margin-right: 60px; */
+    }
+
+    button.leftarrow,
+    button.rightarrow {
+        margin-top: 10px;
     }
 
     .our-friends_wrapper > form > button {
-        margin-top: 75px;
+        margin-top: 45px;
     }
 
+    .wrapper {
+        width: 270px;
+        /* background: red; */
+        flex-wrap: wrap;        
+        margin-top: 30px;
+        /* justify-content: space-between; */
+    }
+    .carousel-wrapper {
+        width: 270px;
+        margin: 0;       
+    }
+
+    .item {
+        width: 270px;
+        gap: 40px;
+        overflow: hidden;
+        /* background: blue; */
+    }
+
+    .carousel {
+        left: -311px;
+        /* gap: 40px; */
+        /* background: yellow; */
+        margin: 0;
+         
+    }
 
     /* help */
 
@@ -1429,7 +1481,7 @@ address {
     .help-pictures .item > p {
         font-size: 15px;
         line-height: 110%;
-        margin-top: -70px;
+        margin-top: -20px;
     }
 
 /* in addition */

@@ -1,4 +1,4 @@
-alert("Пожалуйста, проверьте мою работу через пару дней, ближе к дедлайну проверки")
+alert("Please, check my work closier to deadline")
 
 // Burger menu
 

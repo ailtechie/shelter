@@ -1396,14 +1396,6 @@ address {
         margin-top: 42px;
     }
 
-    button.leftarrow {
-        /* margin-left: 60px; */
-    }
-
-    button.rightarrow {
-        /* margin-right: 60px; */
-    }
-
     button.leftarrow,
     button.rightarrow {
         margin-top: 10px;
